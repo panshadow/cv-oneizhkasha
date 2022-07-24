@@ -9,33 +9,28 @@ title: Oleg Neizhkasha
 ____________
 
 ### lang (good) 
-
  - Clojure
-   - manifold.deferred
-   - aleph.http
+   - manifold.deferred, aleph.http, hugsql, korma
  
  - ClojureScript
-   - tonsky/rum
-   - day8/re-frame
-   - reagent-project/reagent
-   - funcool/promesa
+   - tonsky/rum, day8/re-frame, reagent-project/reagent, funcool/promesa
  
  - JavaScript
-   - React
-   - Redux
-   - Underscore
-   - lodash
+   - React, Redux, Lodash, Ramda
+
  - Python
-   - Django
-   - Flask
+   - Django, Flask
+
  - Go
+   - goji, gorilla/mux
+ 
  - Shell
 
 ### lang (familiar) 
-
  - Erlang/OTP
  - Scala
  - Ruby (Rails)
+ - Rust
 
 ### db
  - SQL:
