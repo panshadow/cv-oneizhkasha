@@ -2,7 +2,7 @@
 title: Oleg Neizhkasha
 subtitle: Senior Software Engineer
 ---
-
+\pagebreak
 ## About
 ![](me.jpeg)
 
@@ -19,6 +19,7 @@ I am always ready to learn something new and don’t afraid of a legacy. I can d
 - github: [panshadow](https://github.com/panshadow)
 
 
+\pagebreak
 ## Skills
 
 ### lang (good) 
@@ -59,7 +60,7 @@ I am always ready to learn something new and don’t afraid of a legacy. I can d
  - k8s
  - nginx
 
-
+\pagebreak
 ## Experince
 
 ### Jul 2021 - Jul 2022: [Hopin](https://hopin.com/)
@@ -103,10 +104,12 @@ I am always ready to learn something new and don’t afraid of a legacy. I can d
 
 - Web developer (PHP, JavaScript)
 
+\pagebreak
 ## Education
 
 1998 - 2004 M.Sc., Faculty of Applied Mathematics, National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”
 
+\pagebreak
 ## Outside work
 
 My daughter, my wife, my mom. Ukraine. Love snowboarding, biking with my daughter, yachting or snorkeling with friends, and traveling.
