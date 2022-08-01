@@ -14,7 +14,9 @@ I am always ready to learn something new and don’t afraid of a legacy. I can d
 
 ### Contacts:
 - email: [oleg.neizhkasha@gmail.com](mailto:oleg.neizhkasha@gmail.com)
-- phone, whatsApp, signal, telegram, viber: +380972152313
+- phone, whatsApp, signal, telegram, viber: [+380-97-215-23-13](tel:+380-97-215-23-13)
+- linkedin: [oneizhkasha](https://www.linkedin.com/in/oneizhkasha/)
+- github: [panshadow](https://github.com/panshadow)
 
 
 ## Skills
