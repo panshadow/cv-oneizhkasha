@@ -7,11 +7,17 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
+      - uses: actions/checkout@v2
+
+      - name: Prepare files
+        run: |
+          mkdir output
+
       - uses: docker://pandoc/core:2.9
         with:
           args: >-  # allows you to break string into multiple lines
             --self-contained
             --from markdown
             --to html
-            -o /github/home/cv.html
-            /github/home/cv.md
+            -o output/cv.html
+            cv.md
