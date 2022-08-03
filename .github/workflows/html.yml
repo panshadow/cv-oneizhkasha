@@ -13,7 +13,8 @@ jobs:
         run: |
           mkdir output
 
-      - uses: docker://pandoc/core:2.9
+      - name: Build HTML
+        uses: docker://pandoc/core:2.9
         with:
           args: >-  # allows you to break string into multiple lines
             --self-contained
@@ -21,3 +22,9 @@ jobs:
             --to html
             -o output/cv.html
             cv.md
+
+      - name: Archive builded page
+        uses: actions/upload-artifact@v3
+        with:
+          name: cv-html
+          path: output/cv.html
