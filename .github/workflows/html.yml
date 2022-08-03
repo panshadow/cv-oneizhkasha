@@ -13,5 +13,5 @@ jobs:
             --self-contained
             --from markdown
             --to html
-            -o cv.html
-            cv.md
+            -o /github/home/cv.html
+            /github/home/cv.md
