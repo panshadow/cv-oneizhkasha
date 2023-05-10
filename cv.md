@@ -2,9 +2,8 @@
 title: Oleg Neizhkasha
 subtitle: Senior Software Engineer
 ---
-\pagebreak
 ## About
-![](me.jpeg)
+![](me.jpeg){width=200}
 
 I’m Oleg Neizhkasha, from Kyiv, Ukraine.
 
@@ -14,7 +13,7 @@ I am always ready to learn something new and don’t afraid of a legacy. I can d
 
 ### Contacts:
 - email: [oleg.neizhkasha@gmail.com](mailto:oleg.neizhkasha@gmail.com)
-- phone, whatsApp, signal, telegram, viber: [+380-97-215-23-13](tel:+380-97-215-23-13)
+- phone, whatsApp, signal, [telegram](https://t.me/oneizhkasha), viber: [+380-97-215-23-13](tel:+380-97-215-23-13)
 - linkedin: [oneizhkasha](https://www.linkedin.com/in/oneizhkasha/)
 - github: [panshadow](https://github.com/panshadow)
 
@@ -23,6 +22,11 @@ I am always ready to learn something new and don’t afraid of a legacy. I can d
 ## Skills
 
 ### lang (good) 
+ - Go
+   - [gin](https://github.com/gin-gonic/gin), [echo](https://github.com/labstack/echo)
+   - [x/image](https://golang.org/x/image), [disintegration/imaging](https://github.com/disintegration/imaging)
+   - [goji](https://github.com/zenazn/goji), [gorilla/mux](https://github.com/gorilla/mux)
+   
  - Clojure
    - [manifold](https://aleph.io/manifold/rationale.html), [aleph.http](https://aleph.io/aleph/http.html), [hugsql](https://www.hugsql.org/)
  
@@ -34,11 +38,10 @@ I am always ready to learn something new and don’t afraid of a legacy. I can d
 
  - Python
    - [Django](https://www.djangoproject.com/), [Flask](https://flask.palletsprojects.com/)
-
- - Go
-   - goji, [gorilla/mux](https://github.com/gorilla/mux)
  
  - Shell
+ 
+ - Groovy (Jenkins Pipeline)
 
 ### lang (familiar) 
  - Erlang/OTP
@@ -48,37 +51,62 @@ I am always ready to learn something new and don’t afraid of a legacy. I can d
 
 ### db
  - SQL:
-   - MySQL, PgSQL, SQLite
+   - MySQL, PostgreSQL, SQLite
  - NoSQL:
    - CouchDB, MongoDB
    - Redis, Riak
 
-### tool
- - Jenkins
- - ansible
- - docker
- - k8s
- - nginx
+### CI/CD
+ - K8s, Helm
+ - Terraform
+ - Github Actions, Gitlab CI
+ - Jenkins Pipeline
+
 
 \pagebreak
 ## Experince
+
+### Oct 2022 - Mar 2023: [TakeOff Technologies](https://www.takeoff.com/)
+- Role: Senior Software Engineer
+- Responsibilities:
+  - Support integrations with Oracle based platform.
+  - Technical Stack:
+    - Golang
+    - Clojure 
+    - Google Cloud Platform
+    - K8s, Helm
+    - Terraform, Terragrunt
+    - Github Actions
 
 ### Jul 2021 - Jul 2022: [Hopin](https://hopin.com/)
 
 - Role: Senior Software Engineer
 - Responsibilities:
-  - project “Audience CRM”: worked on infrastructure for Clojure application, based on k8s
+  - project “Audience CRM”: worked on infrastructure for Clojure application, based on k8s, kustomize, gitlab-ci, AWS ECS
   - project “Onboarding”: worked on Event Creation Wizard mostly as backend engineer(Rails), however took React/Redux tasks too
+  - support Attendify platform
  
 ### Jan 2014 - Jul 2021: [Attendify](https://attendify.com/)
  
-- Roles: Software Engineer > FrontEnd Team Lead >Senior Software Engineer
+- Roles: Software Engineer > FrontEnd Team Lead > Senior Software Engineer
 - Responsibilities: 
   - Worked on many features
   - Created and supported main web application (React hosted on Django) and features integration
-  - Created and supported feature specific services on Clojure, Golang, Python, Scala 
+  - Support Golang services:
+    - Image processing service:
+      - Upload, covert, resize images
+    - Backend for WebMobile version:
+      - Webserver with hosting React application pages
+      - Fetching data from several datasources
+    - Landing Pages service
+      - webServer for automatically generated landing pages of Events
+    - Proxy server for Mobile Apps
+      - Fetching data from several datasources
+      - Storing client events from Mobile Apps 
+  - Created and supported feature specific services on Clojure, Python, Scala 
   - Created and supported feature specific client side applications on ClojureScript, JavaScript
   - Worked on infrastructure and tools
+    - [fabric 1.x](https://www.fabfile.org/), Jenkins (Pipeline), Ansible
   
 ### Jan 2012 - Dec 2013 [form. Cogniance](https://star.global)
 
